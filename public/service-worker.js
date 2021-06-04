@@ -2,7 +2,7 @@ const APP_PREFIX = "budgetTracker";
 const VERSION = "version_01";
 const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
-    "/", "/index.html","index.js", "/db.js", "/style.css"];
+    "/", "/index.html","index.js", "/db.js", "/style.css", "/manifest.json", "/service-workers.js"];
 
     self.addEventListener("install", function (event) {
         event.waitUntil(
